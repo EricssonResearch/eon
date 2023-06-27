@@ -1,4 +1,4 @@
-# Ericsson Outlier Nexus (EON) &ndash; KPI Datasets for Anomaly Detection & Forecasting
+# Ericsson Outlier Nexus (EON) <br> &ndash; KPI Datasets for Forecasting & Anomaly Detection
 
 EON is a repository that contains the following KPI (Key Performance Indicator) datasets that can be used to validate and compare performances of forecasting and time series anomaly detection (AD) algorithms. 
 
