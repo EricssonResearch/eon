@@ -61,11 +61,11 @@ This dataset is designed for unsupervised time series anomaly detection. Therefo
 
 ## Citation
 
-The details of both datasets have been first mentioned in the [QBSD paper](https://doi.org/10.48550/arXiv.2306.05989). The BibTeX version of the same is given below.
+The details of the EON1 dataset have been first mentioned in the [QBSD paper](https://doi.org/10.48550/arXiv.2306.05989). The BibTeX version of the same is given below.
  
 ```bibtex
 @misc{ebe2023qbsd,
-      title={Quartile-Based Seasonality Decomposition for Time Series Forecasting and Anomaly Detection}, 
+      title={{QBSD:} Quartile-Based Seasonality Decomposition for Cost-Effective Time Series Forecasting}, 
       author={Ebenezer R H P Isaac and Bulbul Singh},
       year={2023},
       eprint={2306.05989},
