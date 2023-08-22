@@ -61,18 +61,39 @@ This dataset is designed for unsupervised time series anomaly detection. Therefo
 
 ## Citation
 
-The details of the EON1 dataset have been first mentioned in the [QBSD paper](https://doi.org/10.48550/arXiv.2306.05989). The BibTeX version of the same is given below.
+Please cite the relevant paper should you wish to utilize the respective dataset in your research publications.
+The papers and their respective BibTeX versions are given below. 
+
+The details of the EON1-Cell-F dataset have been mentioned in the [QBSD paper](https://arxiv.org/abs/2306.05989).
  
 ```bibtex
 @misc{ebe2023qbsd,
-      title={{QBSD:} Quartile-Based Seasonality Decomposition for Cost-Effective Time Series Forecasting}, 
-      author={Ebenezer R H P Isaac and Bulbul Singh},
-      year={2023},
-      eprint={2306.05989},
-      archivePrefix={arXiv},
-      primaryClass={cs.LG}
+  title={{QBSD:} Quartile-Based Seasonality Decomposition for Cost-Effective Time Series Forecasting}, 
+  author={Ebenezer R H P Isaac and Bulbul Singh},
+  year={2023},
+  eprint={2306.05989},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  note={arXiv preprint},
+  url={https://arxiv.org/abs/2306.05989}
 }
 ```
+
+The details of the EON1-Cell-U dataset have been mentioned in the [ATH paper](https://arxiv.org/abs/2308.10504).
+ 
+```bibtex
+@misc{ebe2023ath,
+  title={Adaptive Thresholding Heuristic for KPI Anomaly Detection}, 
+  author={Ebenezer R H P Isaac and Akshat Sharma},
+  year={2023},
+  eprint={2308.10504},
+  archivePrefix={arXiv},
+  primaryClass={cs.LG},
+  note={arXiv preprint},
+  url={https://arxiv.org/abs/2308.10504}
+}
+```
+
 ---
 
 ## License
