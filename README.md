@@ -19,7 +19,6 @@ Though only one file is provided for a dataset, each dataset is split into train
 |     2    |     Validation    |     2023-03-01 00:00:00    |     2023-03-31 23:45:00    |
 |     3    |     Testing       |     2023-04-01 00:00:00    |     2023-04-30 23:45:00    |
 
-
 ### EON1-Cell-F
 Cell-F consists of a subset of KPIs in EON1 that are forecastable (the first six) – one column for each KPI. All KPIs in the dataset are nonnegative real numbers.
 
@@ -58,6 +57,7 @@ E.g., Anomaly_A, Anomaly_B, etc.
 
 This dataset is designed for unsupervised time series anomaly detection. Therefore, there are only anomalies present in the validation and testing splits, not in the training split. Anomalies that exist in these datasets occur in multi-ROP sequence, that is, each anomalous occurrence would last for at least 4 ROPs. No isolated anomalies exist in this dataset.
 
+**Warning**: Do not include the validation set of EON1-Cell-U for training. There are common subsequences between the validation set and training set since they are generated with a process that involves the same random seed.
 
 ## Citation
 
