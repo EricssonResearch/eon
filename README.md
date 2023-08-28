@@ -57,7 +57,7 @@ E.g., Anomaly_A, Anomaly_B, etc.
 
 This dataset is designed for unsupervised time series anomaly detection. Therefore, there are only anomalies present in the validation and testing splits, not in the training split. Anomalies that exist in these datasets occur in multi-ROP sequence, that is, each anomalous occurrence would last for at least 4 ROPs. No isolated anomalies exist in this dataset.
 
-**Warning**: Do not include the validation set of EON1-Cell-U for training. There are common subsequences between the validation set and training set since they are generated with a process that involves the same random seed.
+**Warning**: Do not include the validation set of EON1-Cell-U for training. There are common subsequences between the validation set and testing set since they are generated with a process that involves the same random seed.
 
 ## Citation
 
